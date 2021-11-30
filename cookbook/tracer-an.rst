@@ -306,7 +306,6 @@ Below is the ESPHome configuration file that will get you up and running. This a
 The definitions for most sensors is included using Packages
 
 Rated Datum registers 
-
 tracer-rated-datum.yaml
 
 .. code-block:: yaml
@@ -622,10 +621,10 @@ tracer-real-time.yaml
         value_type: U_WORD
         accuracy_decimals: 0
 
-    Statistic registers
-    tracer-stats.yaml
+Statistic registers
+tracer-stats.yaml
     
-    .. code-block:: yaml
+.. code-block:: yaml
 
     sensor:
       - platform: modbus_controller
